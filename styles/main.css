@@ -529,10 +529,17 @@ section {
 }
 
 .speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 3rem;
-    justify-items: center;
+    align-items: center;
+}
+
+.speakers-row {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .speaker-card {
@@ -544,20 +551,6 @@ section {
     background: white;
     width: 100%;
     max-width: 320px;
-}
-
-.speaker-card.bottom-row.centered {
-    grid-row: 2;
-}
-
-.speaker-card.bottom-row.centered:first-of-type {
-    grid-column: 2;
-    margin-right: 1.5rem;
-}
-
-.speaker-card.bottom-row.centered:last-of-type {
-    grid-column: 2;
-    margin-left: 1.5rem;
 }
 
 .speaker-card:hover {
@@ -662,36 +655,26 @@ section {
 
 /* Responsive adjustments for speakers */
 @media (max-width: 968px) {
-    .speakers-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .speakers-row {
         gap: 2rem;
-    }
-    
-    .speaker-card.bottom-row:first-of-type {
-        grid-column-start: 1;
     }
 }
 
 @media (max-width: 640px) {
     .speakers-grid {
-        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
+    
+    .speakers-row {
+        flex-direction: column;
         gap: 1.5rem;
-        justify-items: center;
+        width: 100%;
+        align-items: center;
     }
     
     .speaker-card {
-        grid-column: 1 !important;
-        grid-row: auto !important;
-        margin: 0 !important;
         width: 100%;
         max-width: 350px;
-    }
-    
-    .speaker-card.bottom-row.centered,
-    .speaker-card.bottom-row {
-        grid-column: 1 !important;
-        grid-row: auto !important;
-        margin: 0 !important;
     }
 }
 
@@ -706,17 +689,7 @@ section {
     gap: 0.5rem;
     margin: 1rem auto 0 auto;
     text-align: center;
-    background: #2563eb;
-    color: white;
-    border: 2px solid #2563eb;
-    transition: all 0.3s ease;
-}
-
-.print-schedule-btn:hover {
-    background: #1d4ed8;
-    border-color: #1d4ed8;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    cursor: pointer;
 }
 
 .schedule-tabs {
@@ -852,6 +825,43 @@ section {
     text-decoration: none;
 }
 
+.moderator-section {
+    margin-bottom: 30px;
+}
+
+.moderator-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f0f9ff;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 4px solid #2563eb;
+}
+
+.moderator-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2563eb;
+    flex-shrink: 0;
+}
+
+.moderator-info {
+    flex: 1;
+}
+
+.moderator-info p {
+    margin: 0;
+    color: #1f2937;
+}
+
+.moderator-info p:first-child {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
 .panelist-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -864,6 +874,27 @@ section {
     padding: 20px;
     border-radius: 15px;
     border-left: 4px solid #2563eb;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.panelist-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e5e7eb;
+    flex-shrink: 0;
+    transition: border-color 0.3s ease;
+}
+
+.panelist-card:hover .panelist-image {
+    border-color: #2563eb;
+}
+
+.panelist-info {
+    flex: 1;
 }
 
 .panelist-card h4 {
@@ -994,15 +1025,12 @@ section {
 }
 
 .benefit-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
     margin: 0 auto;
-}
-
-.benefit-item:last-child {
-    grid-column: 2;
+    flex-wrap: nowrap;
 }
 
 .benefit-item {
@@ -1012,6 +1040,9 @@ section {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease;
+    flex: 1;
+    min-width: 0;
+    max-width: 300px;
 }
 
 .benefit-item:hover {
@@ -1372,8 +1403,8 @@ section {
     }
 
     .benefit-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 20px;
+        flex-wrap: wrap;
     }
 
     .benefit-item {
@@ -1412,24 +1443,19 @@ section {
     }
 
     .speakers-grid {
-        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
+    
+    .speakers-row {
+        flex-direction: column;
         gap: 1.5rem;
-        justify-items: center;
+        width: 100%;
     }
 
     .speaker-card {
         max-width: 350px;
         width: 100%;
-        margin: 0;
         padding: 1.5rem;
-        grid-column: 1 !important;
-    }
-
-    .speaker-card.bottom-row,
-    .speaker-card.bottom-row.centered {
-        grid-column: 1 !important;
-        grid-row: auto !important;
-        margin: 0 !important;
     }
 
     .speaker-photo {
@@ -1530,6 +1556,18 @@ section {
 
     .panelist-card {
         padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .moderator-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .panelist-image,
+    .moderator-image {
+        margin: 0 auto;
     }
 
     .close-panel {
@@ -1618,29 +1656,14 @@ section {
     }
 
     /* Force single column for speakers on small screens */
-    .speakers-grid {
-        grid-template-columns: 1fr !important;
-        display: grid !important;
+    .speakers-row {
+        flex-direction: column;
+        align-items: center;
     }
 
     .speaker-card {
-        grid-column: 1 !important;
-        grid-row: auto !important;
-        margin: 0 auto !important;
         max-width: 300px;
         width: 100%;
-    }
-
-    .speaker-card.bottom-row,
-    .speaker-card.bottom-row.centered,
-    .speaker-card.bottom-row.centered:first-of-type,
-    .speaker-card.bottom-row.centered:last-of-type {
-        grid-column: 1 !important;
-        grid-row: auto !important;
-        margin: 0 auto !important;
-    }
-
-    .speaker-card {
         padding: 1rem;
     }
 
@@ -1659,7 +1682,7 @@ section {
     }
 
     .benefit-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 15px;
     }
 
