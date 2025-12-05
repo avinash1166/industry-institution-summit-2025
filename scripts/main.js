@@ -121,7 +121,7 @@ const panelData = {
         panelists: [
             { name: "Dr. Prabhakar Ramakrishnan", title: "CISO, TnQ Technologies", image: "assets/images/Prabhakar ramakrishnan.jpg" },
             { name: "Ms. Ashwini Priyanka Rajendran", title: "Founder and CEO, Cyber Security Expert, ASSR Emphorium", image: "assets/images/Ashwini priyanka rajendran.jpg" },
-            { name: "Mr. Shrijith D", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/Shrijith D.jpg" },
+            { name: "Mr. Shrijith D", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/placeholder-speaker.jpg" },
             { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca", image: "assets/images/ananthi.jpg" },
             { name: "Dr. Paulraj M", title: "Senior Professor, CSE, Hindustan Institute of Technology and Science", image: "assets/images/paulraj.jpg" }
         ]
