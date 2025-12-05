@@ -122,14 +122,14 @@ const panelData = {
             { name: "Dr. Prabhakar Ramakrishnan", title: "CISO, TnQ Technologies", image: "assets/images/Prabhakar ramakrishnan.jpg" },
             { name: "Ms. Ashwini Priyanka Rajendran", title: "Founder and CEO, Cyber Security Expert, ASSR Emphorium", image: "assets/images/Ashwini priyanka rajendran.jpg" },
             { name: "Mr. Shrijith D", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/Shrijith D.jpg" },
-            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore", image: "assets/images/J.kanya.jpg" },
+            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca", image: "assets/images/ananthi.jpg" },
             { name: "Dr. Paulraj M", title: "Senior Professor, CSE, Hindustan Institute of Technology and Science" }
         ]
     },
     panel4: {
         title: "Panel Discussion 4: The Future of Cyber Security and Digital Ethics",
-        moderator: "Dr. S. Alagu, Dean (CS), Hindustan College of Arts & Science",
-        moderatorImage: "assets/images/Alagu.jpg",
+        moderator: "Dr. M. Krishnamurthy, Professor (CSE), KCG College of Technology",
+        moderatorImage: "assets/images/PD_5_images/Dr M Krishnamurthy PD - 5.png",
         panelists: [
             { name: "Mr. Vennimaal Murugan", title: "Project Manager, TCS", image: "assets/images/Vennimaal_murugan.jpg" },
             { name: "Mr. Akash Venkatesan", title: "Founder and CEO, Titelr Infoser Pvt. Ltd", image: "assets/images/Akash venkatesan.jpg" },
@@ -140,8 +140,8 @@ const panelData = {
     },
     panel5: {
         title: "Panel Discussion 5: Cyber Security in the age of Blockchain and cryptocurrencies and the legal issues",
-        moderator: "Dr. M. Krishnamurthy, Professor (CSE), KCG College of Technology",
-        moderatorImage: "assets/images/PD_5_images/Dr M Krishnamurthy PD - 5.png",
+        moderator: "Dr. S. Alagu, Dean (CS), Hindustan College of Arts & Science",
+        moderatorImage: "assets/images/Alagu.jpg",
         panelists: [
             { name: "Mr. Rajendran", title: "Cyber Law advocate, Chairman, Digital Security Association of India (DisAI)", image: "assets/images/Rajendran.jpg" },
             { name: "Mr. Vinod Senthil", title: "Founder and CEO, InfySeC", image: "assets/images/vinod_ks.jpg" },
@@ -167,7 +167,7 @@ const panelData = {
         moderator: "Dr. Sudalai Muthu T, CISO, Prof & Head (CSE), HITS",
         moderatorImage: "assets/images/sudalai muthu.jpg",
         panelists: [
-            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca", image: "assets/images/ananthi.jpg" },
+            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore", image: "assets/images/J.kanya.jpg" },
             { name: "Mr. Bala Murugan", title: "Sr. Delivery Manager, L&T", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
             { name: "Ms. Malathi R", title: "Senior Enterprise Architect, Impetus Technologies", image: "assets/images/malathi.jpg" },
             { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core, Chennai", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
