@@ -90,8 +90,14 @@ html {
     gap: 1rem;
 }
 
-.hero-iet-logo, .hero-hits-logo {
+.hero-iet-logo {
     width: 80px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.hero-hits-logo {
+    width: 100px;
     height: auto;
     opacity: 0.9;
 }
@@ -1271,8 +1277,13 @@ section {
         min-width: 0;
     }
 
-    .hero-iet-logo, .hero-hits-logo {
+    .hero-iet-logo {
         width: 60px;
+        height: auto;
+    }
+    
+    .hero-hits-logo {
+        width: 75px;
         height: auto;
     }
     
@@ -1669,8 +1680,13 @@ section {
         font-size: 1rem;
     }
 
-    .hero-iet-logo, .hero-hits-logo {
+    .hero-iet-logo {
         width: 50px;
+        height: auto;
+    }
+    
+    .hero-hits-logo {
+        width: 65px;
         height: auto;
     }
     
