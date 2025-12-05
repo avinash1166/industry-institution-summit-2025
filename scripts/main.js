@@ -167,7 +167,7 @@ const panelData = {
         moderator: "Dr. Sudalai Muthu T, CISO, Prof & Head (CSE), HITS",
         moderatorImage: "assets/images/sudalai muthu.jpg",
         panelists: [
-            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore", image: "assets/images/J.kanya.jpg" },
+            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore", image: "assets/images/kanya.jpg" },
             { name: "Mr. Bala Murugan", title: "Sr. Delivery Manager, L&T", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
             { name: "Ms. Malathi R", title: "Senior Enterprise Architect, Impetus Technologies", image: "assets/images/malathi.jpg" },
             { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core, Chennai", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
