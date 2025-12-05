@@ -153,24 +153,25 @@ const panelData = {
     panel6: {
         title: "Panel Discussion 6: Protecting Critical Infrastructure: The Next Cyber Battleground",
         moderator: "Ms. Savitha KV, Head (CSE), Hindustan College, Mysore",
+        moderatorImage: "assets/images/Savitha .jpg",
         panelists: [
             { name: "Mr. Ravichandran Swaminathan", title: "Cyber Consultant, Coimbatore", image: "assets/images/ravichandran_swaminathan_ks.jpg" },
             { name: "Mr. Prakasam U.P", title: "Director, Nebula Solutions", image: "assets/images/prakasham_ks.jpg" },
             { name: "Dr. A.L. Vallikannu", title: "Dean Research, Hindustan Institute of Technology and Science" },
-            { name: "Dr. Hema V", title: "Cyber Consultant, Chennai" },
-            { name: "Mr. Suresh Venkatachalam", title: "Vice President, Hinduja Tech Ltd." }
+            { name: "Dr. Hema V", title: "Cyber Consultant, Chennai", image: "assets/images/hema.jpg" },
+            { name: "Mr. Suresh Venkatachalam", title: "Vice President, Hinduja Tech Ltd.", image: "assets/images/suresh venkatachalam.jpg" }
         ]
     },
     panel7: {
         title: "Panel Discussion 7: Digital Sovereignty: Securing Data in a Borderless World",
         moderator: "Dr. Sudalai Muthu T, CISO, Prof & Head (CSE), HITS",
-        moderatorImage: "assets/images/PD_7_images/Dr. Sudalai Muthu PD - 7.png",
+        moderatorImage: "assets/images/sudalai muthu.jpg",
         panelists: [
-            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca", image: "assets/images/anbuthambi_ks.jpg" },
+            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca", image: "assets/images/ananthi.jpg" },
             { name: "Mr. Bala Murugan", title: "Sr. Delivery Manager, L&T", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
-            { name: "Ms. Malathi R", title: "Senior Enterprise Architect, Impetus Technologies", image: "assets/images/Malathi.jpg" },
+            { name: "Ms. Malathi R", title: "Senior Enterprise Architect, Impetus Technologies", image: "assets/images/malathi.jpg" },
             { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core, Chennai", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
-            { name: "Mr. Ramesh A", title: "Senior Architect, IBM, Bangalore" }
+            { name: "Mr. Ramesh A", title: "Senior Architect, IBM, Bangalore", image: "assets/images/ramesh.jpg" }
         ]
     }
 };
