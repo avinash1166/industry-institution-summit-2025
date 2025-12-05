@@ -131,7 +131,7 @@ const panelData = {
         moderator: "Dr. S. Alagu, Dean (CS), Hindustan College of Arts & Science",
         moderatorImage: "assets/images/PD_4_images/Mr Jayaseelan PD - 4.png",
         panelists: [
-            { name: "Mr. Vensimaal Murugan", title: "Project Manager, TCS" },
+            { name: "Mr. Vennimaal Murugan", title: "Project Manager, TCS" },
             { name: "Mr. Akash Venkatesan", title: "Founder and CEO, Titelr Infoser Pvt. Ltd" },
             { name: "Mr. Gokulavan Jayaraman", title: "Infosec Leader, Mahindra and Mahindra" },
             { name: "Mr. Abhishek Sansuel", title: "Product Manager, Ford" },
