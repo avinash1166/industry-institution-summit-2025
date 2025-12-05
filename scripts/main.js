@@ -106,7 +106,7 @@ const panelData = {
         moderator: "Mr. Viqaruddin Surki, Delivery Head, IBM Innovation Centre for Education",
         moderatorImage: "assets/images/PD_2_images/Mr viqaruddin Surki PD - 2.png",
         panelists: [
-            { name: "Dr. Saravanan Velrajan", title: "Head, Digital Consulting, Ginkos India", image: "assets/images/PD_2_images/Dr Saravanan Velraj PD - 2.png" },
+            { name: "Dr. Saravanan Velrajan", title: "Head, Digital Consulting, Ginkos India (HITS Alumni)", image: "assets/images/PD_2_images/Dr Saravanan Velraj PD - 2.png" },
             { name: "Mr. Ramu Para", title: "Cyber Security Leader, HTC Global Services", image: "assets/images/PD_2_images/Mr Ramu Para PD - 2.png" },
             { name: "Mr. Gowdhaman Jothilingam", title: "Global CISO, Head of Information Technology, Latent View", image: "assets/images/PD_2_images/Mr Gowthaman Jyothilingam PD - 2.png" },
             { name: "Ms. Archana Iyengar", title: "Chief Marketing Officer, MiBot Ventures", image: "assets/images/archana_iyengar_ks.jpg" },
@@ -122,7 +122,7 @@ const panelData = {
             { name: "Dr. Prabhakar Ramakrishnan", title: "CISO, TnQ Technologies", image: "assets/images/Prabhakar ramakrishnan.jpg" },
             { name: "Ms. Ashwini Priyanka Rajendran", title: "Founder and CEO, Cyber Security Expert, ASSR Emphorium", image: "assets/images/Ashwini priyanka rajendran.jpg" },
             { name: "Mr. Shrijith D", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/PD_3_images/Mr Shrijith PD - 3.png" },
-            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca", image: "assets/images/ananthi.jpg" },
+            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca (HITS Alumni)", image: "assets/images/ananthi.jpg" },
             { name: "Dr. Paulraj M", title: "Senior Professor, CSE, Hindustan Institute of Technology and Science", image: "assets/images/paulraj.jpg" }
         ]
     },
@@ -146,8 +146,8 @@ const panelData = {
             { name: "Mr. Rajendran", title: "Cyber Law advocate, Chairman, Digital Security Association of India (DisAI)", image: "assets/images/Rajendran.jpg" },
             { name: "Mr. Vinod Senthil", title: "Founder and CEO, InfySeC", image: "assets/images/vinod_ks.jpg" },
             { name: "Ms. Simila A.", title: "Cyber Consultant, Puducherry", image: "assets/images/Simila.jpg" },
-            { name: "Mr. Magashwarahan A", title: "Security Researcher, Associate, HTC Global Services", image: "assets/images/Mageswaran.jpg" },
-            { name: "Mr. Renganathan P", title: "Founder of R. Protocols, Chennai", image: "assets/images/Renganathan.jpg" }
+            { name: "Mr. Magashwarahan A", title: "Security Researcher, Associate, HTC Global Services (HITS Alumni)", image: "assets/images/Mageswaran.jpg" },
+            { name: "Mr. Renganathan P", title: "Founder of R. Protocols, Chennai (HITS Alumni)", image: "assets/images/Renganathan.jpg" }
         ]
     },
     panel6: {
@@ -156,10 +156,10 @@ const panelData = {
         moderatorImage: "assets/images/Savitha .jpg",
         panelists: [
             { name: "Mr. Ravichandran Swaminathan", title: "Cyber Consultant, Coimbatore", image: "assets/images/ravichandran_swaminathan_ks.jpg" },
-            { name: "Mr. Prakasam U.P", title: "Director, Nebula Solutions", image: "assets/images/prakasham_ks.jpg" },
+            { name: "Mr. Prakasam U.P", title: "Director, Nebula Solutions (HITS Alumni)", image: "assets/images/prakasham_ks.jpg" },
             { name: "Dr. A.L. Vallikannu", title: "Dean Research, Hindustan Institute of Technology and Science" },
-            { name: "Dr. Hema V", title: "Cyber Consultant, Chennai", image: "assets/images/hema.jpg" },
-            { name: "Mr. Suresh Venkatachalam", title: "Vice President, Hinduja Tech Ltd.", image: "assets/images/suresh venkatachalam.jpg" }
+            { name: "Dr. Hema V", title: "Cyber Consultant, Chennai (HITS Alumni)", image: "assets/images/hema.jpg" },
+            { name: "Mr. Suresh Venkatachalam", title: "Vice President, Hinduja Tech Ltd. (HITS Alumni)", image: "assets/images/suresh venkatachalam.jpg" }
         ]
     },
     panel7: {
@@ -170,7 +170,7 @@ const panelData = {
             { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore", image: "assets/images/kanya.jpg" },
             { name: "Mr. Bala Murugan", title: "Sr. Delivery Manager, L&T", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
             { name: "Ms. Malathi R", title: "Senior Enterprise Architect, Impetus Technologies", image: "assets/images/malathi.jpg" },
-            { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core, Chennai", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
+            { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core, Chennai (HITS Alumni)", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
             { name: "Mr. Ramesh A", title: "Senior Architect, IBM, Bangalore", image: "assets/images/ramesh.jpg" }
         ]
     }
