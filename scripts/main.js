@@ -90,74 +90,75 @@ tabBtns.forEach(btn => {
 // Panel details functionality
 const panelData = {
     panel1: {
-        title: "Panel Discussion 1: The Cybersecurity Paradox: Convenience vs. Security",
-        moderator: "Dr. Thangakumar J, Associate Dean CS",
+        title: "Panel Discussion 1: Cybersecurity Paradox: Convenience vs. Security",
+        moderator: "Dr. Thangakumar J, Associate Dean CS, HITS",
         moderatorImage: "assets/images/PD_1_images/Dr. Thangakumar PD - 1.png",
         panelists: [
-            { name: "Ms Kavitha Ayappan", title: "CISO & VP, Neurealm", image: "assets/images/PD_1_images/Ms. Kavitha Ayappan PD - 1.png" },
-            { name: "Mr Aravind", title: "AGM -- Head of Cyber Security, Expleo Group", image: "assets/images/PD_1_images/Mr Aravind PD - 1.png" },
-            { name: "Mr Gerald Victor", title: "CISO, Sight Spectrum", image: "assets/images/PD_1_images/Mr Gerald Victor PD - 1.png" },
-            { name: "Ms Kavitha Karuhakaran", title: "Cyber Security Head, Staples", image: "assets/images/PD_1_images/Ms Kavitha Karunakaran PD - 1.png" },
-            { name: "Ms Vimalashree", title: "Leader - Cyber Security, Poshmark", image: "assets/images/PD_1_images/Ms Vimalashree PD - 1.png" }
+            { name: "Ms. Kavitha Ayappan", title: "Practice Head-Cyber Security & CISO, Neurealm", image: "assets/images/PD_1_images/Ms. Kavitha Ayappan PD - 1.png" },
+            { name: "Mr. Aravind Gnanabaskaran", title: "AGM-Head of Cyber Security Practice, Expleo Group", image: "assets/images/PD_1_images/Mr Aravind PD - 1.png" },
+            { name: "Mr. Gerald Victor", title: "CISO, Sight Spectrum", image: "assets/images/PD_1_images/Mr Gerald Victor PD - 1.png" },
+            { name: "Ms. Kavitha Karunakaran", title: "Cyber Security Strategist, Staples", image: "assets/images/PD_1_images/Ms Kavitha Karunakaran PD - 1.png" },
+            { name: "Ms. Vimalaasree Anandhan", title: "Leader-Cyber Security, Poshmark", image: "assets/images/PD_1_images/Ms Vimalashree PD - 1.png" }
         ]
     },
     panel2: {
         title: "Panel Discussion 2: AI in Cyber Defense: The Rise of Autonomous Security Systems",
-        moderator: "Mr Viqaruddin Surki, Delivery Head, IBM",
+        moderator: "Mr. Viqaruddin Surki, Delivery Head, IBM Innovation Centre for Education",
         moderatorImage: "assets/images/PD_2_images/Mr viqaruddin Surki PD - 2.png",
         panelists: [
-            { name: "Dr Saravanan Velrajan", title: "Principal Consulatant, Ginkos", image: "assets/images/PD_2_images/Dr Saravanan Velraj PD - 2.png" },
-            { name: "Dr Shiju Rawther", title: "CEO, SBI Mutual fund", image: "assets/images/PD_2_images/Dr Siju Rawther PD - 2.png" },
-            { name: "Mr Ramu Para", title: "HTC Global Services", image: "assets/images/PD_2_images/Mr Ramu Para PD - 2.png" },
-            { name: "Mr Gokulavan Jeyaraman", title: "CISO, Mahindra and Mahindra", image: "assets/images/PD_2_images/Mr Gokulan Jeyaraman PD - 2.png" },
-            { name: "Mr Gowthaman Jyothilingam", title: "CISO, Latent View", image: "assets/images/PD_2_images/Mr Gowthaman Jyothilingam PD - 2.png" }
+            { name: "Dr. Saravanan Velrajan", title: "Head, Digital Consulting, Ginkos India", image: "assets/images/PD_2_images/Dr Saravanan Velraj PD - 2.png" },
+            { name: "Mr. Ramu Para", title: "Cyber Security Leader, HTC Global Services", image: "assets/images/PD_2_images/Mr Ramu Para PD - 2.png" },
+            { name: "Mr. Gowdhaman Jothilingam", title: "Global CISO, Head of Information Technology, Latent View", image: "assets/images/PD_2_images/Mr Gowthaman Jyothilingam PD - 2.png" },
+            { name: "Ms. Archana Iyengar", title: "Chief Marketing Officer, MiBot Ventures" },
+            { name: "Mr. Hari Ramasubramanian", title: "Leader - Business Development & CR, IBM ICE" },
+            { name: "Mr. Mani Madhukar", title: "Program Lead-IBM Innovation Center for Education, IBM" }
         ]
     },
     panel3: {
         title: "Panel Discussion 3: Human Firewall: The Psychology of Cybersecurity",
-        moderator: "Dr. P. Mohan Prof & Head (DISC), HITS",
+        moderator: "Dr. P. Mohan, Prof & Head (DISC), HITS",
         moderatorImage: "assets/images/PD_3_images/Dr Mohan Kumar PD - 3.png",
         panelists: [
-            { name: "Mr Prabhakar", title: "CISO, TnQ Technologies", image: "assets/images/PD_3_images/Mr Prabhakar PD - 3.png" },
-            { name: "Ms Ashwini Priyanka Rajendran", title: "Founder and CEO, Cyber Security Expert, ASSR Emphorium", image: "assets/images/PD_3_images/Ms Ashwini Priyanka Rajendran PD - 3.png" },
-            { name: "Mr Shrijith", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/PD_3_images/Mr Shrijith PD - 3.png" },
-            { name: "Mr Vinod Senthil", title: "Founder and CEO, InfySeC", image: "assets/images/PD_3_images/Mr Vinod Senthil PD - 3.png" },
-            { name: "Ms Kanya", title: "Technical lead, TechMahindra" }
+            { name: "Dr. Prabhakar Ramakrishnan", title: "CISO, TnQ Technologies", image: "assets/images/PD_3_images/Mr Prabhakar PD - 3.png" },
+            { name: "Ms. Ashwini Priyanka Rajendran", title: "Founder and CEO, Cyber Security Expert, ASSR Emphorium", image: "assets/images/PD_3_images/Ms Ashwini Priyanka Rajendran PD - 3.png" },
+            { name: "Mr. Shrijith D", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/PD_3_images/Mr Shrijith PD - 3.png" },
+            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore" },
+            { name: "Dr. Paulraj M", title: "Senior Professor, CSE, Hindustan Institute of Technology and Science" }
         ]
     },
     panel4: {
-        title: "Panel Discussion 4: The Future of Cyber Law and Digital Ethics",
-        moderator: "Mr. P. Jayaseelan, Head (CS), HCAS",
+        title: "Panel Discussion 4: The Future of Cyber Security and Digital Ethics",
+        moderator: "Dr. S. Alagu, Dean (CS), Hindustan College of Arts & Science",
         moderatorImage: "assets/images/PD_4_images/Mr Jayaseelan PD - 4.png",
         panelists: [
-            { name: "Santhosh Jayaprakash", title: "Founder & CEO, Unosecur", image: "assets/images/PD_4_images/Mr Santhosh Jayaprakash PD - 4.png" },
-            { name: "Pranav Dalal", title: "Chief Information Officer, Veeda Lifesciences", image: "assets/images/PD_4_images/Mr Pranav Dalal PD - 4.png" },
-            { name: "Sheeba Hasnain", title: "Chief Information Officer, Sentiente", image: "assets/images/PD_4_images/Ms Sheeba Hasnain PD - 4.png" },
-            { name: "Nisha Rani", title: "Chief Information Security Officer, MMI ELR", image: "assets/images/PD_4_images/Ms Nisha Rani PD - 4.png" },
-            { name: "Anil Kumar Gujja", title: "CIO, Pragati Finserv", image: "assets/images/PD_4_images/Mr Anil Kumar Gujja PD - 4.png" }
+            { name: "Mr. Vensimaal Murugan", title: "Project Manager, TCS" },
+            { name: "Mr. Akash Venkatesan", title: "Founder and CEO, Titelr Infoser Pvt. Ltd" },
+            { name: "Mr. Gokulavan Jayaraman", title: "Infosec Leader, Mahindra and Mahindra" },
+            { name: "Mr. Abhishek Sansuel", title: "Product Manager, Ford" },
+            { name: "Mr. Kalaikuvan Antony", title: "Director of Technology, Chief Technology Officer, MiBot Ventures" }
         ]
     },
     panel5: {
-        title: "Panel Discussion 5: Cybersecurity in the Age of Blockchain and Web3",
-        moderator: "Dr. M. Krishnamurthy, Professor (CSE), KCG College Tech",
+        title: "Panel Discussion 5: Cyber Security in the age of Blockchain and cryptocurrencies and the legal issues",
+        moderator: "Dr. M. Krishnamurthy, Professor (CSE), KCG College of Technology",
         moderatorImage: "assets/images/PD_5_images/Dr M Krishnamurthy PD - 5.png",
         panelists: [
-            { name: "Diptesh Patel", title: "Chief Digital & Information Officer, Cadila Pharmaceuticals Limited", image: "assets/images/PD_5_images/Mr Diptesh Patel PD - 5.png" },
-            { name: "Rohit Mittal", title: "Director Market Planning, Financial Crime Compliance, LexisNexis Risk Solutions", image: "assets/images/PD_5_images/Mr Rohit Mittal PD - 5.png" },
-            { name: "Vimal Rupera", title: "Associate Vice President IT, Fuji Silvertech Concrete Private Limited", image: "assets/images/PD_5_images/Mr Vimal Rupera PD - 5.png" },
-            { name: "Vikas Jagga", title: "Chief Executive Officer, SBI GIFT City", image: "assets/images/PD_5_images/Mr Vikkas Jagga PD - 5.png" },
-            { name: "Yogesh Lokhande", title: "Co-Founder & CTO, PayGlocal Technologies", image: "assets/images/PD_5_images/Mr Yogesh Lokhande PD - 5.png" }
+            { name: "Mr. Rajendran", title: "Cyber Law advocate, Chairman, Digital Security Association of India (DisAI)" },
+            { name: "Mr. Vinod Senthil", title: "Founder and CEO, InfySeC" },
+            { name: "Ms. Simila A.", title: "Cyber Consultant, Puducherry" },
+            { name: "Mr. Manashwarahan A", title: "Security Researcher, Associate, HTC Global Services" },
+            { name: "Mr. Renganathin P", title: "Founder of R. Protocols, Chennai" }
         ]
     },
     panel6: {
         title: "Panel Discussion 6: Protecting Critical Infrastructure: The Next Cyber Battleground",
         moderator: "Ms. Savitha KV, Head (CSE), Hindustan College, Mysore",
         panelists: [
-            { name: "Manish Chandegara", title: "CIO, Simpolo Ceramics", image: "assets/images/PD_6_images/Mr Manish Chandegara PD - 6.png" },
-            { name: "Pankaj Shrivastava", title: "Chief Information Officer, InoxCVA", image: "assets/images/PD_6_images/Dr. Pankaj Shrivastava PD - 6.png" },
-            { name: "Anup Tongaonkar", title: "Group CISO, Aditya Birla", image: "assets/images/PD_6_images/Mr Anup Tongaonkar PD - 6.png" },
-            { name: "Sunil Nishanakar", title: "CISO, Future Generali India Life", image: "assets/images/PD_6_images/Mr Sunil Nishankar PD - 6.png" },
-            { name: "Gopi Thangavel", title: "Chief Information Officer, L&T", image: "assets/images/PD_6_images/Mr Gopi Thangavel PD - 6.png" }
+            { name: "Mr. Ravichandran Swaminathan", title: "Cyber Consultant, Coimbatore" },
+            { name: "Mr. Prakasam U.P", title: "Director, Nebula Solutions" },
+            { name: "Dr. A.L. Vallikannu", title: "Dean Research, Hindustan Institute of Technology and Science" },
+            { name: "Dr. Hema V", title: "Cyber Consultant, Chennai" },
+            { name: "Mr. Suresh Venkatachalam", title: "Vice President, Hinduja Tech Ltd." }
         ]
     },
     panel7: {
@@ -165,11 +166,11 @@ const panelData = {
         moderator: "Dr. SudalaiMuthu T, CISO, Prof & Head (CSE), HITS",
         moderatorImage: "assets/images/PD_7_images/Dr. SudalaiMuthu PD - 7.png",
         panelists: [
-            { name: "Balu Arumugam", title: "Global Cybersecurity & Identity Executive, CVS Health (Fortune 5)", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
-            { name: "Bala Murugan", title: "Sr. Delivery Manager, L&T" },
-            { name: "Malathi R", title: "Senior Enterprise Architect, Impetus Technologies" },
-            { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
-            { name: "Dr. Ramesh A", title: "Senior Architect, IBM, Bangalore" }
+            { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca" },
+            { name: "Mr. Bala Murugan", title: "Sr. Delivery Manager, L&T", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
+            { name: "Ms. Malathi R", title: "Senior Enterprise Architect, Impetus Technologies" },
+            { name: "Dr. Augustus Devarajan", title: "Product Manager, Real Time Core, Chennai", image: "assets/images/PD_7_images/Dr Augustus Devarajan PD - 7.png" },
+            { name: "Mr. Ramesh A", title: "Senior Architect, IBM, Bangalore" }
         ]
     }
 };
