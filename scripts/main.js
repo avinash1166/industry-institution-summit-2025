@@ -92,7 +92,7 @@ const panelData = {
     panel1: {
         title: "Panel Discussion 1: Cybersecurity Paradox: Convenience vs. Security",
         moderator: "Dr. Thangakumar J, Associate Dean CS, HITS",
-        moderatorImage: "assets/images/PD_1_images/Dr. Thangakumar PD - 1.png",
+        moderatorImage: "assets/images/Thangakumar_main.jpg",
         panelists: [
             { name: "Ms. Kavitha Ayappan", title: "Practice Head-Cyber Security & CISO, Neurealm", image: "assets/images/PD_1_images/Ms. Kavitha Ayappan PD - 1.png" },
             { name: "Mr. Aravind Gnanabaskaran", title: "AGM-Head of Cyber Security Practice, Expleo Group", image: "assets/images/PD_1_images/Mr Aravind PD - 1.png" },
