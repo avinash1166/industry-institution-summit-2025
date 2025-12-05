@@ -146,8 +146,8 @@ const panelData = {
             { name: "Mr. Rajendran", title: "Cyber Law advocate, Chairman, Digital Security Association of India (DisAI)" },
             { name: "Mr. Vinod Senthil", title: "Founder and CEO, InfySeC" },
             { name: "Ms. Simila A.", title: "Cyber Consultant, Puducherry" },
-            { name: "Mr. Manashwarahan A", title: "Security Researcher, Associate, HTC Global Services" },
-            { name: "Mr. Renganathin P", title: "Founder of R. Protocols, Chennai" }
+            { name: "Mr. Magashwarahan A", title: "Security Researcher, Associate, HTC Global Services" },
+            { name: "Mr. Renganathan P", title: "Founder of R. Protocols, Chennai" }
         ]
     },
     panel6: {
@@ -163,8 +163,8 @@ const panelData = {
     },
     panel7: {
         title: "Panel Discussion 7: Digital Sovereignty: Securing Data in a Borderless World",
-        moderator: "Dr. SudalaiMuthu T, CISO, Prof & Head (CSE), HITS",
-        moderatorImage: "assets/images/PD_7_images/Dr. SudalaiMuthu PD - 7.png",
+        moderator: "Dr. Sudalai Muthu T, CISO, Prof & Head (CSE), HITS",
+        moderatorImage: "assets/images/PD_7_images/Dr. Sudalai Muthu PD - 7.png",
         panelists: [
             { name: "Ms. Ananthi", title: "Cyber security Lead Consultant, AstraZeneca" },
             { name: "Mr. Bala Murugan", title: "Sr. Delivery Manager, L&T", image: "assets/images/PD_7_images/Mr Balu Arumugam PD - 7.png" },
