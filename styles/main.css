@@ -87,19 +87,33 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
-.hero-iet-logo {
-    width: 80px;
-    height: auto;
-    opacity: 0.9;
+.logo-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 80px;
 }
 
-.hero-hits-logo {
-    width: 100px;
-    height: auto;
-    opacity: 0.9;
+.logo-container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hero-iet-logo, .hero-hits-logo {
+    width: auto;
+    height: 50px;
+    max-width: 100px;
+    object-fit: contain;
+    opacity: 1;
 }
 
 .collaboration-symbol {
@@ -1277,14 +1291,15 @@ section {
         min-width: 0;
     }
 
-    .hero-iet-logo {
-        width: 60px;
-        height: auto;
+    .logo-container {
+        width: 90px;
+        height: 60px;
+        padding: 0.8rem;
     }
-    
-    .hero-hits-logo {
-        width: 75px;
-        height: auto;
+
+    .hero-iet-logo, .hero-hits-logo {
+        height: 35px;
+        max-width: 70px;
     }
     
     .collaboration-symbol {
@@ -1680,14 +1695,15 @@ section {
         font-size: 1rem;
     }
 
-    .hero-iet-logo {
-        width: 50px;
-        height: auto;
+    .logo-container {
+        width: 80px;
+        height: 50px;
+        padding: 0.6rem;
     }
-    
-    .hero-hits-logo {
-        width: 65px;
-        height: auto;
+
+    .hero-iet-logo, .hero-hits-logo {
+        height: 30px;
+        max-width: 60px;
     }
     
     .collaboration-symbol {
