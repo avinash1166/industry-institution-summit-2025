@@ -109,9 +109,9 @@ const panelData = {
             { name: "Dr. Saravanan Velrajan", title: "Head, Digital Consulting, Ginkos India", image: "assets/images/PD_2_images/Dr Saravanan Velraj PD - 2.png" },
             { name: "Mr. Ramu Para", title: "Cyber Security Leader, HTC Global Services", image: "assets/images/PD_2_images/Mr Ramu Para PD - 2.png" },
             { name: "Mr. Gowdhaman Jothilingam", title: "Global CISO, Head of Information Technology, Latent View", image: "assets/images/PD_2_images/Mr Gowthaman Jyothilingam PD - 2.png" },
-            { name: "Ms. Archana Iyengar", title: "Chief Marketing Officer, MiBot Ventures" },
-            { name: "Mr. Hari Ramasubramanian", title: "Leader - Business Development & CR, IBM ICE" },
-            { name: "Mr. Mani Madhukar", title: "Program Lead-IBM Innovation Center for Education, IBM" }
+            { name: "Ms. Archana Iyengar", title: "Chief Marketing Officer, MiBot Ventures", image: "assets/images/archana_iyengar_ks.jpg" },
+            { name: "Mr. Hari Ramasubramanian", title: "Leader - Business Development & CR, IBM ICE", image: "assets/images/Hari Ramasubramanian.jpg" },
+            { name: "Mr. Mani Madhukar", title: "Program Lead-IBM Innovation Center for Education, IBM", image: "assets/images/Mani Madhukar.jpg" }
         ]
     },
     panel3: {
@@ -122,20 +122,20 @@ const panelData = {
             { name: "Dr. Prabhakar Ramakrishnan", title: "CISO, TnQ Technologies", image: "assets/images/PD_3_images/Mr Prabhakar PD - 3.png" },
             { name: "Ms. Ashwini Priyanka Rajendran", title: "Founder and CEO, Cyber Security Expert, ASSR Emphorium", image: "assets/images/PD_3_images/Ms Ashwini Priyanka Rajendran PD - 3.png" },
             { name: "Mr. Shrijith D", title: "Software Consulting Engineer, CISCO Systems", image: "assets/images/PD_3_images/Mr Shrijith PD - 3.png" },
-            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore" },
+            { name: "Ms. J. Kanya", title: "Module Lead, TechMahindra, Bangalore", image: "assets/images/kanya.jpg" },
             { name: "Dr. Paulraj M", title: "Senior Professor, CSE, Hindustan Institute of Technology and Science" }
         ]
     },
     panel4: {
         title: "Panel Discussion 4: The Future of Cyber Security and Digital Ethics",
         moderator: "Dr. S. Alagu, Dean (CS), Hindustan College of Arts & Science",
-        moderatorImage: "assets/images/PD_4_images/Mr Jayaseelan PD - 4.png",
+        moderatorImage: "assets/images/Alagu.jpg",
         panelists: [
-            { name: "Mr. Vennimaal Murugan", title: "Project Manager, TCS" },
-            { name: "Mr. Akash Venkatesan", title: "Founder and CEO, Titelr Infoser Pvt. Ltd" },
-            { name: "Mr. Gokulavan Jayaraman", title: "Infosec Leader, Mahindra and Mahindra" },
-            { name: "Mr. Abhishek Sansuel", title: "Product Manager, Ford" },
-            { name: "Mr. Kalaikuvan Antony", title: "Director of Technology, Chief Technology Officer, MiBot Ventures" }
+            { name: "Mr. Vennimaal Murugan", title: "Project Manager, TCS", image: "assets/images/Vennimaal_murugan.jpg" },
+            { name: "Mr. Akash Venkatesan", title: "Founder and CEO, Titelr Infoser Pvt. Ltd", image: "assets/images/Akash venkatesan.jpg" },
+            { name: "Mr. Gokulavan Jayaraman", title: "Infosec Leader, Mahindra and Mahindra", image: "assets/images/Gokulavan jayaraman.jpg" },
+            { name: "Mr. Abhishek Sansuel", title: "Product Manager, Ford", image: "assets/images/Abhishek_sansuel.jpg" },
+            { name: "Mr. Kalaikuvan Antony", title: "Director of Technology, Chief Technology Officer, MiBot Ventures", image: "assets/images/Kalaikovan_anthony.jpg" }
         ]
     },
     panel5: {
@@ -143,7 +143,7 @@ const panelData = {
         moderator: "Dr. M. Krishnamurthy, Professor (CSE), KCG College of Technology",
         moderatorImage: "assets/images/PD_5_images/Dr M Krishnamurthy PD - 5.png",
         panelists: [
-            { name: "Mr. Rajendran", title: "Cyber Law advocate, Chairman, Digital Security Association of India (DisAI)" },
+            { name: "Mr. Rajendran", title: "Cyber Law advocate, Chairman, Digital Security Association of India (DisAI)", image: "assets/images/Rajendran.jpg" },
             { name: "Mr. Vinod Senthil", title: "Founder and CEO, InfySeC" },
             { name: "Ms. Simila A.", title: "Cyber Consultant, Puducherry" },
             { name: "Mr. Magashwarahan A", title: "Security Researcher, Associate, HTC Global Services" },
