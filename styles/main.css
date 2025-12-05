@@ -575,17 +575,15 @@ section {
 }
 
 .speakers-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: start;
+    justify-content: center;
 }
 
 .speakers-row {
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: contents;
 }
 
 .speaker-card {
@@ -1500,13 +1498,12 @@ section {
     }
 
     .speakers-grid {
-        gap: 2rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     .speakers-row {
-        flex-direction: column;
-        gap: 1.5rem;
-        width: 100%;
+        display: contents;
     }
 
     .speaker-card {
